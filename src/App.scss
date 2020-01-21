@@ -1,0 +1,137 @@
+$royal_blue : #002366;
+$border:  1px solid #fff;
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./static/images/background_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-container {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -78%);
+  display: flex;
+  flex-direction: column;
+}
+.main-container img {
+  margin-bottom: 1rem;
+}
+
+.main-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h4 {
+    padding: 2px 1rem 0px 1rem;
+    color: #fff;
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    background-color: none;
+    -webkit-transition: background-color 500ms linear;
+      -ms-transition: background-color 500ms linear;
+      transition: background-color 500ms linear;
+     &:hover {
+      cursor: pointer;
+      color: $royal_blue;
+      background-color: #fff;
+      -webkit-transition: background-color 500ms linear;
+      -ms-transition: background-color 500ms linear;
+      transition: background-color 500ms linear;
+    }
+  }
+  div {
+    width: 2px;
+    height: 2rem;
+    background-color: #fff;
+  }
+}
+
+
+
+.footer-container {
+  margin: 1rem auto;
+  width: 99%;
+  height: 6rem;
+  display: flex;
+}
+
+.footer-first {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h5 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 2px 1rem 0px 1rem;
+    border-right: 1px solid #fff;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.footer-second {
+  flex-basis: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  h5 {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  img {
+    width: 1.8rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.footer-third {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  h5 {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+}
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.volume {
+  width: 2.8rem;
+  padding-bottom: 2px;
+  padding-left: 1rem;
+}
+
+.volume:hover {
+  cursor: pointer;
+}

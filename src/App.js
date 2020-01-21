@@ -5,7 +5,7 @@ import twt from "./static/images/twitter.svg"
 import ytb from "./static/images/youtube.svg"
 import scld from "./static/images/soundcloud.svg"
 import vol from "./static/images/volume.svg"
-import './App.css'
+import './App.scss'
 
 function App() {
   return (
@@ -14,11 +14,11 @@ function App() {
       <div className="main-container">
         <img src={logo} alt="logo" />
         <div className="main-buttons">
-          <div className="main-button"><h4>EVENTS</h4></div>
-          <div className="main-button"><h4>GALLERY</h4></div>
-          <div className="main-button"><h4>CLIENTS</h4></div>
-          <div className="main-button"><h4>ABOUT</h4></div>
-          <div className="main-button"><h4>CONTACT</h4></div>
+          <h4>EVENTS</h4><div></div>
+          <h4>GALLERY</h4><div></div>
+          <h4>CLIENTS</h4><div></div>
+          <h4>ABOUT</h4><div></div>
+          <h4>CONTACT</h4><div></div>
         </div>
       </div>
       <div className="footer-container">
