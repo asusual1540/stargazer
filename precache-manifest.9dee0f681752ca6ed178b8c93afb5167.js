@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a63549a6bbaca3c4a40bfabe2adafc0",
+    "revision": "942d8ad30f2a024e26d59682638ef510",
     "url": "/stargazer/index.html"
   },
   {
-    "revision": "dcf1b0c273012ed4a5b5",
-    "url": "/stargazer/static/css/main.79f2d265.chunk.css"
+    "revision": "e649550dd2bf288dbdae",
+    "url": "/stargazer/static/css/main.1802d855.chunk.css"
   },
   {
-    "revision": "d8bf548092fa7e1d8f20",
-    "url": "/stargazer/static/js/2.9ba714a3.chunk.js"
+    "revision": "4f88cbc193eb5510f25b",
+    "url": "/stargazer/static/js/2.55a2828d.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/stargazer/static/js/2.9ba714a3.chunk.js.LICENSE"
+    "revision": "e928fe768baa9832b5bc57eae021f30c",
+    "url": "/stargazer/static/js/2.55a2828d.chunk.js.LICENSE"
   },
   {
-    "revision": "dcf1b0c273012ed4a5b5",
-    "url": "/stargazer/static/js/main.e07f9049.chunk.js"
+    "revision": "e649550dd2bf288dbdae",
+    "url": "/stargazer/static/js/main.a2aeacf9.chunk.js"
   },
   {
     "revision": "572526b7eb693479d3a4",
