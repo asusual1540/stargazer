@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/stargazer/static/css/main.0a93dd1a.chunk.css",
+    "main.js": "/stargazer/static/js/main.e3dedc29.chunk.js",
+    "main.js.map": "/stargazer/static/js/main.e3dedc29.chunk.js.map",
+    "runtime-main.js": "/stargazer/static/js/runtime-main.c51e3698.js",
+    "runtime-main.js.map": "/stargazer/static/js/runtime-main.c51e3698.js.map",
+    "static/js/2.9ba714a3.chunk.js": "/stargazer/static/js/2.9ba714a3.chunk.js",
+    "static/js/2.9ba714a3.chunk.js.map": "/stargazer/static/js/2.9ba714a3.chunk.js.map",
+    "index.html": "/stargazer/index.html",
+    "precache-manifest.db7e1213a87f72cf14800b0a58b3ad5a.js": "/stargazer/precache-manifest.db7e1213a87f72cf14800b0a58b3ad5a.js",
+    "service-worker.js": "/stargazer/service-worker.js",
+    "static/css/main.0a93dd1a.chunk.css.map": "/stargazer/static/css/main.0a93dd1a.chunk.css.map",
+    "static/js/2.9ba714a3.chunk.js.LICENSE": "/stargazer/static/js/2.9ba714a3.chunk.js.LICENSE",
+    "static/media/App.css": "/stargazer/static/media/background_1.b9a386f1.jpg",
+    "static/media/facebook.svg": "/stargazer/static/media/facebook.1db09742.svg",
+    "static/media/logo.svg": "/stargazer/static/media/logo.d3565bc1.svg",
+    "static/media/soundcloud.svg": "/stargazer/static/media/soundcloud.c3bbb772.svg",
+    "static/media/twitter.svg": "/stargazer/static/media/twitter.77461980.svg",
+    "static/media/volume.svg": "/stargazer/static/media/volume.6ac3d895.svg",
+    "static/media/youtube.svg": "/stargazer/static/media/youtube.b916bca0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c51e3698.js",
+    "static/js/2.9ba714a3.chunk.js",
+    "static/css/main.0a93dd1a.chunk.css",
+    "static/js/main.e3dedc29.chunk.js"
+  ]
+}
