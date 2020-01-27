@@ -16,6 +16,10 @@ $border:  1px solid #fff;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+            &_date {
+                position: absolute;
+            }
         }
     }
     &_title {

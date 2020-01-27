@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Back from "./common/Back"
 import Selector from "./common/Selector"
+import DatePicker from "./common/DatePicker"
 
 import back_arrow from "../static/images/back_arrow.svg"
 import location from "../static/images/location.svg"
@@ -35,14 +36,14 @@ class Events extends Component {
     }
 
     render() {
-        const { event_type, selected, trans_x, backward_disable, forward_disable } = this.state
+        const { event_type, selected, trans_x } = this.state
         return (
             <div className="event">
                 <div className="event_head">
                     <Back route="/" />
                     <div className="event_head_controls">
                         <Selector title="EVENT TYPES" do_select={this.do_select} data={event_type} selected={selected} />
-                        <Selector title="CUSTOM DATE" />
+                        <DatePicker />
                     </div>
                 </div>
                 <div className="event_title">

@@ -1,0 +1,186 @@
+// React Datepicker
+.datepicker-container {
+    position: relative;
+
+    position: relative;
+
+	//Calender icon inside text field
+	.form-group {
+		.controls-text {
+            position: relative;
+            img {
+                position: absolute;
+                top: 5px;
+                right: 15px;
+                width: 20px;
+            }
+
+			input[type="text"] {
+                width: 24.7rem;
+                height: 3.2rem;
+                border-radius: 7px;
+                background-color: rgba(255, 255, 255, .1);
+                border: none;
+                color: #fff;
+                font-family: 'Bebas Neue', cursive;
+                font-size: 1.6rem;
+                padding: 3px 0 2px 15px;
+                letter-spacing: 1px;
+			}
+		}
+	}
+
+	//Large input
+	.form-group.large {
+		.controls-text {
+			&:after {
+				font-size: 27px;
+			}
+
+			input[type="text"] {
+				padding-right: 50px;
+			}
+		}
+	}
+
+	//Popup
+	.datepicker-popup {
+		position: absolute;
+		z-index: 100;
+		top: calc(100% + 12px);
+        left: 0;
+        background-color: rgba(255, 255, 255, .7);
+		border-radius: 3px;
+		width: 246px;
+		border: 1px solid #ccc;
+
+		.datepicker-header {
+			position: relative;
+			display: block;
+	
+			.datepicker-current-month {
+				background-color: rgba(255, 255, 255, .3);
+				font-size: 12px;
+				text-align: center;
+				line-height: 16px;
+				padding: 10px 40px;
+			}
+
+			.datepicker-navigation {
+				position: absolute;
+				top: 6px;
+				width: 24px;
+				height: 24px;
+				text-align: center;
+				text-decoration: none;
+				cursor: pointer;
+
+				&:before {
+					//@include icomoon();
+					color: blue;
+					font-size: 18px;
+					line-height: 24px;
+					display: block;
+					width: 24px;
+				}
+			}
+
+			.datepicker-navigation-previous {
+				left: 6px;
+				&:before {
+					content: '<';
+				}
+			}
+
+			.datepicker-navigation-next {
+				right: 6px;
+				&:before {
+					content: '>';
+				}
+			}
+
+
+			// Year dropdown
+			.datepicker-year-read-view
+			{
+				text-align: center;
+				line-height: 16px;
+    			padding: 10px 40px;
+			}
+
+			.datepicker-year-dropdown
+			{
+				text-align: center;
+				padding: 10px 40px;
+
+				.datepicker-year-disabled
+				{
+					color: #ccc;
+				}
+			}
+
+		}
+
+		.datepicker-week-header {
+			padding: 6px 3px 3px 3px;
+		}
+
+		.datepicker-month {
+			padding: 3px;
+			//@include fnz-clearfix;
+      &:after {
+        clear: both;
+        content:'';
+        display: table;
+      }
+
+			.datepicker-day {
+				cursor: pointer;
+			}
+
+			.datepicker-day-disabled {
+				cursor: default;
+				color: color(6);
+			}
+
+			.datepicker-day-outside-month {
+				opacity: 0;
+				color: #ddd;
+				cursor: default;
+			}
+
+		}
+
+		.datepicker-week {
+			clear: both;
+		}
+
+		.datepicker-day {
+			width: 30px;
+			height: 30px;
+			margin: 2px 2px;
+			text-align: center;
+			line-height: 30px;
+			float: left;
+		}		
+
+
+		.datepicker-day-today {
+			font-weight: bold;
+		}		
+
+		.datepicker-day-in-range,
+		.datepicker-day-selected {
+			border-radius: 15px;
+			background-color: rgba(0, 0, 0, .9);
+			color: white;
+		}
+
+
+	}
+}
+
+.datepicker-today-button {
+	padding: 8px;
+	
+}

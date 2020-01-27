@@ -1,0 +1,120 @@
+$border:  1px solid #fff;
+
+.gallery {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    transition: transform 500ms ease-in-out;
+    
+    &_back {
+        position: absolute;
+        z-index: 999;
+        top: 5rem;
+    }
+    &_selector {
+        position: absolute;
+        z-index: 999;
+        top: 5rem;
+        right: 5rem;
+    }
+    &_bottom_arrows {
+        position: absolute;
+        z-index: 999;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        bottom: 10rem;
+    }
+    &_left {
+        width: 15rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5rem;
+        &:hover {
+            cursor: pointer;
+        }
+        img {
+            width: 5rem;
+        }
+        p {
+            font-family: inherit;
+            color: #fff;
+            font-size: 2.4rem;
+            letter-spacing: 1px;
+            margin-top: 3px;
+        }
+    }
+    &_right {
+        width: 11rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 5rem;
+        &:hover {
+            cursor: pointer;
+        }
+        img {
+            width: 5rem;
+            transform: rotate(180deg);
+        }
+        p {
+            font-family: inherit;
+            color: #fff;
+            font-size: 2.4rem;
+            letter-spacing: 1px;
+            margin-top: 3px;
+        }
+    }
+    &_desc {
+        position: absolute;
+        width: 20rem;
+        height: 30rem;
+        top: 30%;
+        left: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2 {
+            font-family: 'Lato', sans-serif;
+            color: #fff;
+            font-size: 3.6rem;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        &_icon {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            &_body {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                &_img {
+                    width: 1.5rem;
+                }
+                p {
+                    font-family: 'Lato', sans-serif;
+                    color: rgba(255, 255, 255, .6);
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    margin-left: 1rem;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+    &_box{
+        width: 52rem;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        > img {
+            width: 100%;
+        }
+    }
+}
