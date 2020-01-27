@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90dfb3658b2c1ee2f008c7a3eeb79adf",
+    "revision": "6a566820ef192645a0a690e01ba32c85",
     "url": "/stargazer/index.html"
   },
   {
-    "revision": "b46ebc92561c5e89f463",
-    "url": "/stargazer/static/css/main.158250c7.chunk.css"
+    "revision": "aa41c4a6b3bf5cbfe27b",
+    "url": "/stargazer/static/css/main.81aa796e.chunk.css"
   },
   {
-    "revision": "a77c7de72c0394e2ccc1",
-    "url": "/stargazer/static/js/2.ec07424b.chunk.js"
+    "revision": "c13451df4f35e4e8bde8",
+    "url": "/stargazer/static/js/2.0d559516.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/stargazer/static/js/2.ec07424b.chunk.js.LICENSE"
+    "url": "/stargazer/static/js/2.0d559516.chunk.js.LICENSE"
   },
   {
-    "revision": "b46ebc92561c5e89f463",
-    "url": "/stargazer/static/js/main.6c4d5338.chunk.js"
+    "revision": "aa41c4a6b3bf5cbfe27b",
+    "url": "/stargazer/static/js/main.549adbd9.chunk.js"
   },
   {
     "revision": "572526b7eb693479d3a4",
@@ -36,12 +36,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stargazer/static/media/background_1.41a8eac7.jpg"
   },
   {
+    "revision": "40709d68104057e8a7080bd8fa013368",
+    "url": "/stargazer/static/media/calendar.40709d68.svg"
+  },
+  {
     "revision": "1db09742fbb597d6748e3d15b1472d8d",
     "url": "/stargazer/static/media/facebook.1db09742.svg"
   },
   {
     "revision": "7f90c2dc2186ed286b942959502c6dae",
     "url": "/stargazer/static/media/fb_full.7f90c2dc.svg"
+  },
+  {
+    "revision": "07891d0397f686e6782816a191405bc6",
+    "url": "/stargazer/static/media/gallery_1.07891d03.png"
+  },
+  {
+    "revision": "e63751730ace524625a8c70d33e12460",
+    "url": "/stargazer/static/media/gallery_2.e6375173.png"
+  },
+  {
+    "revision": "3d3364a9d1f5e9686b27d3cf882fa561",
+    "url": "/stargazer/static/media/gallery_3.3d3364a9.png"
   },
   {
     "revision": "36195e2d4091956917094178e760fec7",
