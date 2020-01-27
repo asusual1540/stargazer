@@ -1,0 +1,172 @@
+$border:  1px solid #fff;
+
+.event {
+    width: 100vw;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &_head {
+        flex-basis: 7%;
+        display: flex;
+        justify-content: space-between;
+        &_controls {
+            width: 50rem;
+            margin-right: 5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &_title {
+        flex-basis: 23%;
+        display: flex;
+        align-items: center;
+        &_desc {
+            font-size: 1.6rem;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            margin: 0;
+            padding: 0;
+            margin-left: 5rem;
+        }
+        &_t {
+            font-size: 4.6rem;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+            margin: 0;
+            padding: 0;
+            margin-left: 5rem;
+        }
+    }
+    &_body {
+        flex-basis: 70%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        &_top {
+            flex-basis: 5%;
+            display: flex;
+            justify-content: space-between;
+            &_actions {
+                height: 100%;
+                margin-right: 5rem;
+                display: flex;
+                img {
+                    width: 20px;
+                    margin: 0 1rem;
+                }
+                &_forward {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        &_elements {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            flex-wrap: nowrap;
+            position: absolute;
+            top: 5rem;
+            &_el {
+                width: 30rem;
+                height: 30rem;
+                margin: 0 5rem;
+                transition: transform 500ms ease-in-out;
+                position: relative;
+                &_details {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                    background-color: rgba(0, 0, 0, .3);
+                    z-index: 3;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 3rem;
+                    &_header {
+                        flex-basis: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        &_upcoming {
+                            font-family: 'Lato', sans-serif;
+                            font-size: 1.6rem;
+                            color: #1abfe1;
+                            font-weight: 900;
+                            padding: 0 5px;
+                            text-align: center;
+                            letter-spacing: 6px;
+                            text-shadow: 2px 2px 5px #000;
+                        }
+                        &_date {
+                            h3 {
+                                font-family: 'Lato', sans-serif;
+                                font-size: 3rem;
+                                color: #fff;
+                                font-weight: 900;
+                                span {
+                                    font-family: 'Lato', sans-serif;
+                                    font-size: 1.6rem;
+                                    color: #fff;
+                                    font-weight: 700;
+                                }
+                            }
+                            h2 {
+                                font-family: 'Lato', sans-serif;
+                                font-size: 2.2rem;
+                                color: #fff;
+                                font-weight: 900;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                    &_body {
+                        flex: 1;
+                        &_desc {
+                            font-family: 'Lato', sans-serif;
+                            font-size: 1.4rem;
+                            color: #fff;
+                            font-weight: 500;
+                            margin-top: 1rem;
+                        }
+                    }
+                    &_footer {
+                        flex-basis: 10%;
+                        display: flex;
+                        &_icon {
+                            width: 2.5rem;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            img {
+                                width: 1.2rem;
+                            }
+                        }
+                        p {
+                            flex: 1;
+                            height: 100%;
+                            font-family:'Lato', sans-serif;
+                            font-size: 1.4rem;
+                            font-weight: 500;
+                            color: #fff;
+                            margin: 3px 0 0 5px;
+                        }
+                    }
+                }
+                 &_img {
+                    position: absolute;
+                    width: 30rem;
+                    top: 0;
+                    left: 0;
+                    z-index: 2;
+                }
+            }
+            
+        }
+    }
+}

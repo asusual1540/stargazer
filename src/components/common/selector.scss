@@ -1,0 +1,77 @@
+$border:  1px solid #fff;
+
+.select {
+    
+    &_box {
+        width: 22rem;
+        height: 3.2rem;
+        border-radius: 7px;
+        background-color: rgba(255, 255, 255, .1);
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_title {
+            flex: 1;
+            margin-left: 1.5rem;
+            font-size: 1.6rem;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+        &_icon {
+            margin-right: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(0deg);
+            &_up {
+                transform: rotate(180deg);
+            }
+            &_down {
+                
+            }
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &_options {
+        margin-top: 1px;
+        position: absolute;
+        width: 22rem;
+        border-radius: 7px;
+        background-color: rgba(255, 255, 255, .1);
+        &_opt {
+            width: 22rem;
+            height: 3.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &_title {
+                flex: 1;
+                margin-left: 1.5rem;
+                font-size: 1.6rem;
+                color: #fff;
+                letter-spacing: 1px;
+            }
+            &_icon {
+                width: 2rem;
+                height: 2rem;
+                border: $border;
+                margin-right: 1.5rem;
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: rgba(255, 255, 255, .1);
+                border-radius: 7px;
+             }
+        }
+        
+    }
+
+}
+

@@ -1,0 +1,103 @@
+$royal_blue : #002366;
+$border:  1px solid #fff;
+
+
+.main-container {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -78%);
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+}
+.main-container img {
+  margin-bottom: 1rem;
+}
+
+@keyframes planet1Movement {
+  0% {
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(100deg);
+    -moz-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+  }
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.planet {
+  &-1 {
+    position: absolute;
+    z-index: 99;
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 100s linear infinite;
+    animation:spin 100s linear infinite;
+  }
+  &-2 {
+
+  }
+  &-3 {
+
+  }
+  &-4 {
+
+  }
+  &-5 {
+
+  }
+}
+
+.planets {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+}
+
+.main-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  a {
+    text-decoration: none;
+  }
+  h4 {
+    padding: 2px 1rem 0px 1rem;
+    color: #fff;
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    background-color: none;
+    -webkit-transition: background-color 500ms linear;
+      -ms-transition: background-color 500ms linear;
+      transition: background-color 500ms linear;
+     &:hover {
+      cursor: pointer;
+      color: $royal_blue;
+      background-color: #fff;
+      -webkit-transition: background-color 500ms linear;
+      -ms-transition: background-color 500ms linear;
+      transition: background-color 500ms linear;
+    }
+  }
+  div {
+    width: 2px;
+    height: 2rem;
+    background-color: #fff;
+  }
+}

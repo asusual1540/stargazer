@@ -1,0 +1,64 @@
+$royal_blue : #002366;
+$border:  1px solid #fff;
+
+.about {
+  &_body {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    z-index: 999;
+    transform: translate(0%, -45%);
+    &_left {
+      flex-basis: 20%;
+      height: 100%;
+      display: flex;
+    }
+    &_right {
+      flex-basis: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      &_icons {
+        margin-top: 2rem;
+       &_fb {
+        width: 1.5rem;
+        margin-right: 1rem;
+       }
+       &_ytb {
+        width: 2rem;
+       }
+
+      }
+      &_logo {
+        width: 35rem;
+        margin-top: 15rem;
+      }
+      &_desc {
+        width: 100%;
+        height: 35rem;
+        &_header {
+          font-family: 'Lato', sans-serif;
+          font-weight: 700;
+          font-size: 1.8rem;
+          color: #ffffff;
+          letter-spacing: 1px;
+          margin: 2rem 0;
+        }
+        &_text {
+          width: 60%;
+          font-family: 'Lato', sans-serif;
+          font-weight: 300;
+          font-size: 1.4rem;
+          color: #ffffff;
+          margin-bottom: 1rem;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+  &_planet {
+    position: absolute;
+    width: 100vw;
+  }
+}

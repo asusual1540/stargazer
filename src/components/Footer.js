@@ -6,6 +6,8 @@ import ytb from "../static/images/youtube.svg"
 import scld from "../static/images/soundcloud.svg"
 import vol from "../static/images/volume.svg"
 
+import "./footer.scss"
+
 class Footer extends Component {
     render() {
         return (
@@ -23,7 +25,6 @@ class Footer extends Component {
                     <img src={scld} alt="soundcloud" />
                 </div>
                 <div className="footer-third">
-                    <div></div>
                     <div></div>
                     <div className="copyright-container">
                         <h5>ALL WORK COPYRIGHT OF STARGAZER <span>&copy;</span> 2020-2022 </h5>

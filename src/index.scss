@@ -14,8 +14,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Bebas Neue', cursive ,'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image:  url(./static/images/background_1.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
 }
 html {
   font-size: 62.5%;
