@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/stargazer/static/css/main.1802d855.chunk.css",
-    "main.js": "/stargazer/static/js/main.5c9f52d6.chunk.js",
-    "main.js.map": "/stargazer/static/js/main.5c9f52d6.chunk.js.map",
+    "main.css": "/stargazer/static/css/main.158250c7.chunk.css",
+    "main.js": "/stargazer/static/js/main.6c4d5338.chunk.js",
+    "main.js.map": "/stargazer/static/js/main.6c4d5338.chunk.js.map",
     "runtime-main.js": "/stargazer/static/js/runtime-main.c51e3698.js",
     "runtime-main.js.map": "/stargazer/static/js/runtime-main.c51e3698.js.map",
-    "static/js/2.22b5a547.chunk.js": "/stargazer/static/js/2.22b5a547.chunk.js",
-    "static/js/2.22b5a547.chunk.js.map": "/stargazer/static/js/2.22b5a547.chunk.js.map",
+    "static/js/2.ec07424b.chunk.js": "/stargazer/static/js/2.ec07424b.chunk.js",
+    "static/js/2.ec07424b.chunk.js.map": "/stargazer/static/js/2.ec07424b.chunk.js.map",
     "index.html": "/stargazer/index.html",
-    "precache-manifest.06abcf89b028f03e6219bc131a73f83a.js": "/stargazer/precache-manifest.06abcf89b028f03e6219bc131a73f83a.js",
+    "precache-manifest.079fd008a7c21ace1eba5a6f1ad96bc6.js": "/stargazer/precache-manifest.079fd008a7c21ace1eba5a6f1ad96bc6.js",
     "service-worker.js": "/stargazer/service-worker.js",
-    "static/css/main.1802d855.chunk.css.map": "/stargazer/static/css/main.1802d855.chunk.css.map",
-    "static/js/2.22b5a547.chunk.js.LICENSE": "/stargazer/static/js/2.22b5a547.chunk.js.LICENSE",
-    "static/media/App.scss": "/stargazer/static/media/background_1.b9a386f1.jpg",
+    "static/css/main.158250c7.chunk.css.map": "/stargazer/static/css/main.158250c7.chunk.css.map",
+    "static/js/2.ec07424b.chunk.js.LICENSE": "/stargazer/static/js/2.ec07424b.chunk.js.LICENSE",
+    "static/media/about_pl.png": "/stargazer/static/media/about_pl.07321f6b.png",
+    "static/media/back_arrow.svg": "/stargazer/static/media/back_arrow.9376f10e.svg",
+    "static/media/index.scss": "/stargazer/static/media/background_1.41a8eac7.jpg",
     "static/media/facebook.svg": "/stargazer/static/media/facebook.1db09742.svg",
+    "static/media/fb_full.svg": "/stargazer/static/media/fb_full.7f90c2dc.svg",
+    "static/media/location.svg": "/stargazer/static/media/location.36195e2d.svg",
     "static/media/logo.svg": "/stargazer/static/media/logo.d3565bc1.svg",
+    "static/media/planet-1.png": "/stargazer/static/media/planet-1.100c77a8.png",
+    "static/media/planets.png": "/stargazer/static/media/planets.5961adac.png",
+    "static/media/select_arrow.svg": "/stargazer/static/media/select_arrow.8fcb71e6.svg",
     "static/media/soundcloud.svg": "/stargazer/static/media/soundcloud.c3bbb772.svg",
     "static/media/twitter.svg": "/stargazer/static/media/twitter.77461980.svg",
     "static/media/volume.svg": "/stargazer/static/media/volume.6ac3d895.svg",
@@ -22,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c51e3698.js",
-    "static/js/2.22b5a547.chunk.js",
-    "static/css/main.1802d855.chunk.css",
-    "static/js/main.5c9f52d6.chunk.js"
+    "static/js/2.ec07424b.chunk.js",
+    "static/css/main.158250c7.chunk.css",
+    "static/js/main.6c4d5338.chunk.js"
   ]
 }
