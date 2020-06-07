@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b36fe9c31ecd771edc14afc2c9a9dd0",
+    "revision": "7a56bfed7d0909b06cb95cb0d18b08c4",
     "url": "/stargazer/index.html"
   },
   {
-    "revision": "7b69a912d4e50f2668f0",
+    "revision": "439c14ccc22465e30b28",
     "url": "/stargazer/static/css/main.abef6245.chunk.css"
   },
   {
-    "revision": "5c7cdb5e1de15cd0f5f2",
-    "url": "/stargazer/static/js/2.fdd7c662.chunk.js"
+    "revision": "3a314a59613db6fec1b9",
+    "url": "/stargazer/static/js/2.eeda58f1.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/stargazer/static/js/2.fdd7c662.chunk.js.LICENSE.txt"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/stargazer/static/js/2.eeda58f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b69a912d4e50f2668f0",
-    "url": "/stargazer/static/js/main.ec713b29.chunk.js"
+    "revision": "439c14ccc22465e30b28",
+    "url": "/stargazer/static/js/main.d81760ba.chunk.js"
   },
   {
     "revision": "dfec09df6fe418e928c0",
