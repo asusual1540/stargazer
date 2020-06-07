@@ -30,10 +30,11 @@ function App() {
           <About />
         </Route>
         <Route path="/contact">
-          <FrontPage />
+          <Contact />
         </Route>
         <Route path="/">
-          <Contact />
+
+          <FrontPage />
         </Route>
       </Switch>
       <Footer />
