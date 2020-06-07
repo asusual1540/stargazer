@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a566820ef192645a0a690e01ba32c85",
+    "revision": "764ce0d09fac2f4f8b074628bdf3a49f",
     "url": "/stargazer/index.html"
   },
   {
-    "revision": "aa41c4a6b3bf5cbfe27b",
+    "revision": "5d945bcec04ba8891015",
     "url": "/stargazer/static/css/main.81aa796e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stargazer/static/js/2.0d559516.chunk.js.LICENSE"
   },
   {
-    "revision": "aa41c4a6b3bf5cbfe27b",
-    "url": "/stargazer/static/js/main.549adbd9.chunk.js"
+    "revision": "5d945bcec04ba8891015",
+    "url": "/stargazer/static/js/main.0d346c31.chunk.js"
   },
   {
     "revision": "572526b7eb693479d3a4",
