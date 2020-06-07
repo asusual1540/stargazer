@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery"
 import Clients from "./components/Clients"
 import About from "./components/About"
 import Contact from "./components/Contact"
+import AdminPanel from "./components/AdminPanel"
 import Footer from "./components/Footer"
 
 import './App.scss'
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/admin">
+          <AdminPanel />
         </Route>
         <Route path="/">
           <FrontPage />
