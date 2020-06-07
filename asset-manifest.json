@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/stargazer/static/css/main.81aa796e.chunk.css",
-    "main.js": "/stargazer/static/js/main.6720804d.chunk.js",
-    "main.js.map": "/stargazer/static/js/main.6720804d.chunk.js.map",
-    "runtime-main.js": "/stargazer/static/js/runtime-main.c51e3698.js",
-    "runtime-main.js.map": "/stargazer/static/js/runtime-main.c51e3698.js.map",
-    "static/js/2.06b08c11.chunk.js": "/stargazer/static/js/2.06b08c11.chunk.js",
-    "static/js/2.06b08c11.chunk.js.map": "/stargazer/static/js/2.06b08c11.chunk.js.map",
+    "main.css": "/stargazer/static/css/main.625f1d32.chunk.css",
+    "main.js": "/stargazer/static/js/main.df8eec21.chunk.js",
+    "main.js.map": "/stargazer/static/js/main.df8eec21.chunk.js.map",
+    "runtime-main.js": "/stargazer/static/js/runtime-main.58daefd8.js",
+    "runtime-main.js.map": "/stargazer/static/js/runtime-main.58daefd8.js.map",
+    "static/js/2.fdd7c662.chunk.js": "/stargazer/static/js/2.fdd7c662.chunk.js",
+    "static/js/2.fdd7c662.chunk.js.map": "/stargazer/static/js/2.fdd7c662.chunk.js.map",
     "index.html": "/stargazer/index.html",
-    "precache-manifest.31daffb700a8dd2362c7f6ffab2471fe.js": "/stargazer/precache-manifest.31daffb700a8dd2362c7f6ffab2471fe.js",
+    "precache-manifest.df5d980055151302c5156686cd44860a.js": "/stargazer/precache-manifest.df5d980055151302c5156686cd44860a.js",
     "service-worker.js": "/stargazer/service-worker.js",
-    "static/css/main.81aa796e.chunk.css.map": "/stargazer/static/css/main.81aa796e.chunk.css.map",
-    "static/js/2.06b08c11.chunk.js.LICENSE": "/stargazer/static/js/2.06b08c11.chunk.js.LICENSE",
+    "static/css/main.625f1d32.chunk.css.map": "/stargazer/static/css/main.625f1d32.chunk.css.map",
+    "static/js/2.fdd7c662.chunk.js.LICENSE.txt": "/stargazer/static/js/2.fdd7c662.chunk.js.LICENSE.txt",
     "static/media/about_pl.png": "/stargazer/static/media/about_pl.07321f6b.png",
     "static/media/back_arrow.svg": "/stargazer/static/media/back_arrow.9376f10e.svg",
     "static/media/index.scss": "/stargazer/static/media/background_1.41a8eac7.jpg",
@@ -32,9 +32,9 @@
     "static/media/youtube.svg": "/stargazer/static/media/youtube.b916bca0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c51e3698.js",
-    "static/js/2.06b08c11.chunk.js",
-    "static/css/main.81aa796e.chunk.css",
-    "static/js/main.6720804d.chunk.js"
+    "static/js/runtime-main.58daefd8.js",
+    "static/js/2.fdd7c662.chunk.js",
+    "static/css/main.625f1d32.chunk.css",
+    "static/js/main.df8eec21.chunk.js"
   ]
 }
