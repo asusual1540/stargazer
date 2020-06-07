@@ -18,29 +18,29 @@ function App() {
     <div className="App">
       <div className="header"></div>
       <Switch>
-        <Route path="/about">
+        <Route path="/stargazer/about">
           <About />
         </Route>
-        <Route path="/admin">
+        <Route path="/stargazer/admin">
           <AdminPanel />
         </Route>
-        <Route path="/clients">
+        <Route path="/stargazer/clients">
           <Clients />
         </Route>
-        <Route path="/contact">
+        <Route path="/stargazer/contact">
           <Contact />
         </Route>
-        <Route path="/events">
+        <Route path="/stargazer/events">
           <Events />
         </Route>
-        <Route path="/gallery">
+        <Route path="/stargazer/gallery">
           <Gallery />
         </Route>
-        <Route path="/" >
+        <Route path="/stargazer/" >
           <FrontPage />
         </Route>
 
-        <Redirect to="/" />
+        <Redirect to="/stargazer/" />
 
 
       </Switch>

@@ -9,7 +9,7 @@ class Contacts extends Component {
         return (
             <div className="contact">
                 <div className="contact_back">
-                    <Back route="/" />
+                    <Back route="/stargazer/" />
                 </div>
                 <div className="contact_all">
                     <h2>CONTACT US</h2>

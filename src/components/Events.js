@@ -40,7 +40,7 @@ class Events extends Component {
         return (
             <div className="event">
                 <div className="event_head">
-                    <Back route="/" />
+                    <Back route="/stargazer/" />
                     <div className="event_head_controls">
                         <Selector title="EVENT TYPES" do_select={this.do_select} data={event_type} selected={selected} />
                         <DatePicker />
@@ -73,9 +73,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -98,9 +98,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -124,9 +124,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -149,9 +149,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -174,9 +174,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -199,9 +199,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -224,9 +224,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -249,9 +249,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -274,9 +274,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
@@ -299,9 +299,9 @@ class Events extends Component {
                                 </div>
                                 <div className="event_body_elements_el_details_body">
                                     <p className="event_body_elements_el_details_body_desc">Page editors now use Lorem Ipsum
-                                        as their default model text. Page
-                                        editors now use Lorem Ipsum
-                                        as their default model text
+                                    as their default model text. Page
+                                    editors now use Lorem Ipsum
+                                    as their default model text
                                     </p>
                                 </div>
                                 <div className="event_body_elements_el_details_footer">
