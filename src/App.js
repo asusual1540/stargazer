@@ -17,25 +17,12 @@ function App() {
     <div className="App">
       <div className="header"></div>
       <Switch>
-        <Route path="/events">
-          <Events />
-        </Route>
-        <Route path="/gallery">
-          <Gallery />
-        </Route>
-        <Route path="/clients">
-          <Clients />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/">
-
-          <FrontPage />
-        </Route>
+        <Route path="/events" component={Events}></Route>
+        <Route path="/gallery" component={Gallery}></Route>
+        <Route path="/clients" component={Clients}></Route>
+        <Route path="/about" component={About}></Route>
+        <Route path="/contact" component={Contact}></Route>
+        <Route path="/" exact component={Frontpage}></Route>
       </Switch>
       <Footer />
     </div>
