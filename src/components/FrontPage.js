@@ -7,6 +7,11 @@ import planets from "../static/images/planets.png"
 import "./frontPage.scss"
 
 class FrontPage extends Component {
+
+    componentDidMount() {
+
+    }
+
     render() {
         return (
             <Fragment>
