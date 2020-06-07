@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch, Route } from "react-router-dom"
+import { Switch, Route, Redirect } from "react-router-dom"
 
 import FrontPage from "./components/FrontPage"
 import Events from "./components/Events"
@@ -17,12 +17,25 @@ function App() {
     <div className="App">
       <div className="header"></div>
       <Switch>
-        <Route path="/events" component={Events} />
-        <Route path="/gallery" component={Gallery} />
-        <Route path="/clients" component={Clients} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/" exact component={FrontPage} />
+        <Route path="/events">
+          <Events />
+        </Route>
+        <Route path="/gallery">
+          <Gallery />
+        </Route>
+        <Route path="/clients">
+          <Clients />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/">
+          <FrontPage />
+        </Route>
+        <Redirect to="/" />
       </Switch>
       <Footer />
     </div>
