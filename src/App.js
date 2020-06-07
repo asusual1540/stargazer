@@ -18,28 +18,31 @@ function App() {
     <div className="App">
       <div className="header"></div>
       <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/admin">
+          <AdminPanel />
+        </Route>
+        <Route path="/clients">
+          <Clients />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
         <Route path="/events">
           <Events />
         </Route>
         <Route path="/gallery">
           <Gallery />
         </Route>
-        <Route path="/clients">
-          <Clients />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/admin">
-          <AdminPanel />
-        </Route>
-        <Route path="/">
+        <Route path="/" >
           <FrontPage />
         </Route>
+
         <Redirect to="/" />
+
+
       </Switch>
       <Footer />
     </div>

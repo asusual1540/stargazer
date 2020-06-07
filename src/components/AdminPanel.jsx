@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 
-export default class AdminPanel extends Component {
+class AdminPanel extends Component {
 
     call_server = () => {
         console.log("called")
@@ -19,3 +19,5 @@ export default class AdminPanel extends Component {
         )
     }
 }
+
+export default AdminPanel
