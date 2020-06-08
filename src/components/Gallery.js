@@ -42,7 +42,7 @@ class Gallery extends Component {
         return (
             <Fragment>
                 <div className="gallery_back">
-                    <Back route="/stargazer/" />
+                    <Back route="/" />
                 </div>
                 <div className="gallery_selector">
                     <Selector title="EVENT TYPES" do_select={this.do_select} data={event_type} selected={selected} />

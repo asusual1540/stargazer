@@ -1,15 +1,24 @@
 import React, { Component } from 'react'
+import axios from "axios"
 
+axios.defaults.baseURL = process.env.REACT_APP_API_URL
 
 class AdminPanel extends Component {
 
     call_server = () => {
         console.log("called")
-        fetch('http://localhost:9000/xyz')
-            .then(response => response.json())
-            .then(data => console.log(data))
-    }
 
+        axios.get('/xyz', {
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+            },
+        })
+            .then((response) => {
+                console.log(response);
+            }, (error) => {
+                console.log(error);
+            });
+    }
 
     render() {
         return (

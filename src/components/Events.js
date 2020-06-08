@@ -40,7 +40,7 @@ class Events extends Component {
         return (
             <div className="event">
                 <div className="event_head">
-                    <Back route="/stargazer/" />
+                    <Back route="/" />
                     <div className="event_head_controls">
                         <Selector title="EVENT TYPES" do_select={this.do_select} data={event_type} selected={selected} />
                         <DatePicker />

@@ -9,7 +9,7 @@ class Clients extends Component {
         return (
             <div className="clients">
                 <div className="clients_back">
-                    <Back route="/stargazer" />
+                    <Back route="/" />
                 </div>
                 <div className="clients_all">
                     <h2>Our Clients</h2>

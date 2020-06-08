@@ -17,7 +17,7 @@ class About extends Component {
                 <div className="about">
                     <div className="about_body">
                         <div className="about_body_left">
-                            <Back route="/stargazer/" />
+                            <Back route="/" />
                             <div></div>
                         </div>
                         <div className="about_body_right">
